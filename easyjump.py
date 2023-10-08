@@ -320,8 +320,7 @@ class Screen:
                     "send-keys",
                     "-t",
                     self._id,
-                    "-X",
-                    "begin-selection",
+                    "lbvE",
                     ";",
                 )
             _run_tmux_command(*tmux_command)
